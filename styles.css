@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+body {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+
+/* iconos  */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+/* imagenes  */
+
+.main-news-collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-news-collage img {
+    height: 250px;
+}
+
+.main-news-collage-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-news-collage-element button {
+    background-color: white;
+    height: 30px;
+    color: black;
+    border-radius: 15px;
+}
+
+/* carrito  */
+
+.carrito {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito_cantidad {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
